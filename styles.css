@@ -112,10 +112,10 @@ td {
 
 .header-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex: 1;
-  padding: 0 250px;
+  padding: 0 200px;
 }
 
 .header-img {
@@ -375,7 +375,8 @@ td {
   }
 
   .header-img {
-    display: none;
+    display: flexbox;
+    flex-direction: column;
   }
 
   .header-txt {
